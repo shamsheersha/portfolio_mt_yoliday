@@ -50,22 +50,22 @@ class CustomBottomNav extends StatelessWidget {
             children: [
               _buildNavItem(
                 index: 0,
-                iconPath: 'assets/icons/home.svg',
+                iconPath: 'assets/icons/Home svg.svg',
                 label: 'Home',
               ),
               _buildNavItem(
                 index: 1,
-                iconPath: 'assets/icons/portfolio.svg',
+                iconPath: 'assets/icons/Portfolia svg.svg',
                 label: 'Portfolio',
               ),
               _buildNavItem(
                 index: 2,
-                iconPath: 'assets/icons/input.svg',
+                iconPath: 'assets/icons/Input svg.svg',
                 label: 'Input',
               ),
               _buildNavItem(
                 index: 3,
-                iconPath: 'assets/icons/profile.svg',
+                iconPath: 'assets/icons/Profile svg.svg',
                 label: 'Profile',
               ),
             ],

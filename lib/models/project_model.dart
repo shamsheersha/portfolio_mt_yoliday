@@ -17,10 +17,12 @@ class ProjectModel {
   });
 
 
-  List projectList = [
+  
+}
+List projectList = [
   ProjectModel(
     id: '1',
-    title: 'Kemampuan Merangkum Tulisan',
+    title: 'validasi data siswa kelas 10',
     subject: 'BAHASA SUNDA',
     author: 'Oleh Al-Baiqi Samaan',
     imagePath: 'assets/images/Rectangle 19.jpg',
@@ -84,7 +86,7 @@ class ProjectModel {
   ),
   ProjectModel(
     id: '9',
-    title: 'Kemampuan Merangkum Tulisan',
+    title: 'Aplikasi Penginapan',
     subject: 'BAHASA SUNDA',
     author: 'Oleh Al-Baiqi Samaan',
     imagePath: 'assets/images/Rectangle 19.jpg',
@@ -92,11 +94,10 @@ class ProjectModel {
   ),
   ProjectModel(
     id: '10',
-    title: 'Kemampuan Merangkum Tulisan',
+    title: 'Pinginapan',
     subject: 'BAHASA SUNDA',
     author: 'Oleh Al-Baiqi Samaan',
     imagePath: 'assets/images/Rectangle 19.jpg',
     grade: 'A',
   ),
 ];
-}

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:yoliday_mt/screens/porfolio_screen.dart';
+import 'package:yoliday_mt/screens/home_screen.dart';
+import 'package:yoliday_mt/screens/portfolio_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
           useMaterial3: true,
         ),
-        home: const PorfolioScreen(),
+        home: const HomeScreen(),
       );
       }
     );
